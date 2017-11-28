@@ -7,20 +7,40 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServiceFabricContainers.Web
 EndProject
 Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{1FE0FB14-0101-4AC7-B152-90DE8EF18B97}"
 EndProject
+Project("{A07B5EB6-E848-4116-A8D0-A826331D98C6}") = "ServiceFabricContainers.ServiceFabricHost", "ServiceFabricContainers.ServiceFabricHost\ServiceFabricContainers.ServiceFabricHost.sfproj", "{316E50B6-9D5E-428F-A1DE-33AC2BC797DB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
 		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{1392C1DF-682C-49A8-BEB2-D8239C0D2EB1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{1392C1DF-682C-49A8-BEB2-D8239C0D2EB1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1392C1DF-682C-49A8-BEB2-D8239C0D2EB1}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{1392C1DF-682C-49A8-BEB2-D8239C0D2EB1}.Debug|x64.Build.0 = Debug|Any CPU
 		{1392C1DF-682C-49A8-BEB2-D8239C0D2EB1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1392C1DF-682C-49A8-BEB2-D8239C0D2EB1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1392C1DF-682C-49A8-BEB2-D8239C0D2EB1}.Release|x64.ActiveCfg = Release|Any CPU
+		{1392C1DF-682C-49A8-BEB2-D8239C0D2EB1}.Release|x64.Build.0 = Release|Any CPU
 		{1FE0FB14-0101-4AC7-B152-90DE8EF18B97}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{1FE0FB14-0101-4AC7-B152-90DE8EF18B97}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1FE0FB14-0101-4AC7-B152-90DE8EF18B97}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{1FE0FB14-0101-4AC7-B152-90DE8EF18B97}.Debug|x64.Build.0 = Debug|Any CPU
 		{1FE0FB14-0101-4AC7-B152-90DE8EF18B97}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1FE0FB14-0101-4AC7-B152-90DE8EF18B97}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1FE0FB14-0101-4AC7-B152-90DE8EF18B97}.Release|x64.ActiveCfg = Release|Any CPU
+		{1FE0FB14-0101-4AC7-B152-90DE8EF18B97}.Release|x64.Build.0 = Release|Any CPU
+		{316E50B6-9D5E-428F-A1DE-33AC2BC797DB}.Debug|Any CPU.ActiveCfg = Debug|x64
+		{316E50B6-9D5E-428F-A1DE-33AC2BC797DB}.Debug|x64.ActiveCfg = Debug|x64
+		{316E50B6-9D5E-428F-A1DE-33AC2BC797DB}.Debug|x64.Build.0 = Debug|x64
+		{316E50B6-9D5E-428F-A1DE-33AC2BC797DB}.Debug|x64.Deploy.0 = Debug|x64
+		{316E50B6-9D5E-428F-A1DE-33AC2BC797DB}.Release|Any CPU.ActiveCfg = Release|x64
+		{316E50B6-9D5E-428F-A1DE-33AC2BC797DB}.Release|x64.ActiveCfg = Release|x64
+		{316E50B6-9D5E-428F-A1DE-33AC2BC797DB}.Release|x64.Build.0 = Release|x64
+		{316E50B6-9D5E-428F-A1DE-33AC2BC797DB}.Release|x64.Deploy.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
